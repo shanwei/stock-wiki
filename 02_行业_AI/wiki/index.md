@@ -12,6 +12,7 @@ tags: [行业索引, AI, 人工智能, 快速导航]
 - [[ASML_阿斯麦_美股/wiki/index.md]] - EUV光刻机独家供应商
 - [[LITE_LITE_美股/wiki/index.md]] - EML激光器领导者，AI数据中心光互连
 - [[603986_兆易创新_A股/wiki/index.md]] - NOR Flash全球第二，AI端侧存储需求爆发
+- [[688008_澜起科技_A股/wiki/index.md]] - 内存互连芯片双龙头（36.8%），中国唯一，MRDIMM标准定义者
 - [[300394_天孚通信_A股/wiki/index.md]] - 光器件龙头，"架构中性"资产，穿越技术周期
 - [[300476_胜宏科技_A股/wiki/index.md]] - AI服务器PCB龙头，VGA PCB全球第一，高盛强力买入
 - [[300502_新易盛_A股/wiki/index.md]] - 光模块双龙头之一，2025年营收248亿（+187%），ROE 72.75%
