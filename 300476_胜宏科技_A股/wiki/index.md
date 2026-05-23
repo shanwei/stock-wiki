@@ -22,7 +22,7 @@ tags: [A股, 索引, 股票投研, 快速导航, AI算力, PCB, 服务器]
 
 ## 关联链接
 
-- 行业关联：[[02_行业_AI/wiki/行业分析.md]]
+- 行业关联：[[02_行业_AI/wiki/全球行业分析.md]]
 - 宏观关联：[[00_宏观/wiki/全球宏观事件资产图谱.md]]
 - 跨市场关联：[[NVDA_英伟达_美股/wiki/index.md]]
 - 竞争对手关联：[[LITE_LITE_美股/wiki/index.md]]（光通信器件）、[[TSM_台积电_美股/wiki/index.md]]（先进封装/CoWoS）
