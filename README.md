@@ -12,16 +12,17 @@
 
 - **raw/ 只读，wiki/ 只写**——原始资料放入 `raw/` 目录（gitignored），LLM 自动读取并生成 `wiki/` 页面，人类不手动编辑 wiki
 - **内容必须可追溯**——所有 wiki 内容基于 raw/ 原始资料，不编造、不夸大，每页标注资料来源
-- **多市场适配**——统一框架覆盖 A 股、港股、美股，自动适配不同市场的财务口径和估值逻辑
+- **多市场适配**——统一框架覆盖 A 股、港股、美股、韩股，自动适配不同市场的财务口径和估值逻辑
 - **Obsidian 友好**——使用 `[[wikilink]]` 内部链接，可用 Obsidian 直接浏览全库
 
 ### 覆盖范围
 
 | 类别 | 数量 | 示例 |
 |------|------|------|
-| A 股 | 11 只 | 宁德时代、寒武纪、中际旭创、阳光电源、澜起科技、天孚通信... |
-| 港股 | 6 只 | 腾讯控股、小米集团、泡泡玛特、蜜雪集团、智谱、MiniMax |
-| 美股 | 6 只 | 英伟达、台积电、ASML、谷歌、Coherent、Lumentum |
+| A 股 | 30 只 | 宁德时代、寒武纪、中际旭创、阳光电源、澜起科技、天孚通信、北方华创、中微公司、拓荆科技、华海清科... |
+| 港股 | 14 只 | 腾讯控股、小米集团、泡泡玛特、蜜雪集团、智谱、MiniMax、中芯国际、华虹半导体、长飞光纤、曦智科技... |
+| 美股 | 22 只 | 英伟达、台积电、ASML、谷歌、AMD、Intel、Micron、Arm Holdings、Coherent、Lumentum、Vertiv、Palantir... |
+| 韩股 | 1 只 | SK海力士 |
 | 行业 | 4 个 | 新能源、AI、消费、创新药 |
 | 宏观 | 1 个 | 全球宏观事件、利率周期、资产配置 |
 
@@ -69,7 +70,7 @@ stock-wiki/
 - **LLM**：Claude (Claude Code CLI)
 - **存储**：Markdown 文件，Git 版本控制
 - **浏览**：Obsidian / 任意 Markdown 编辑器
-- **数据源**：巨潮资讯网、港交所披露易、SEC EDGAR、券商研报
+- **数据源**：巨潮资讯网、港交所披露易、SEC EDGAR、券商研报、腾讯IMA知识库
 
 ---
 
@@ -81,16 +82,17 @@ A personal stock research knowledge base automatically maintained by an LLM (Cla
 
 - **raw/ is read-only, wiki/ is LLM-write-only** — source materials go into `raw/` (gitignored), the LLM reads them and generates `wiki/` pages; humans never manually edit wiki
 - **Everything is traceable** — all wiki content is derived from raw/ sources, no fabrication or exaggeration, every page cites its sources
-- **Multi-market support** — unified framework covering A-shares, HK stocks, and US stocks, automatically adapting to different accounting standards and valuation logics
+- **Multi-market support** — unified framework covering A-shares, HK stocks, US stocks, and Korean stocks, automatically adapting to different accounting standards and valuation logics
 - **Obsidian friendly** — uses `[[wikilink]]` internal links, browse the entire vault with Obsidian
 
 ### Coverage
 
 | Category | Count | Examples |
 |----------|-------|---------|
-| A-shares | 11 | CATL, Cambricon, Zhongji Innolight, Sungrow, Montage Tech, Tianfu Comm... |
-| HK Stocks | 6 | Tencent, Xiaomi, Pop Mart, Mixue, Zhipu, MiniMax |
-| US Stocks | 6 | NVIDIA, TSMC, ASML, Google, Coherent, Lumentum |
+| A-shares | 30 | CATL, Cambricon, Zhongji Innolight, Sungrow, Montage Tech, Tianfu Comm, NAURA, AMEC, Piotech... |
+| HK Stocks | 14 | Tencent, Xiaomi, Pop Mart, Mixue, Zhipu, MiniMax, SMIC, Hua Hong, YOFC, Lightspeed/Bolt... |
+| US Stocks | 22 | NVIDIA, TSMC, ASML, Google, AMD, Intel, Micron, Arm Holdings, Coherent, Lumentum, Vertiv, Palantir... |
+| Korean Stocks | 1 | SK Hynix |
 | Industries | 4 | New Energy, AI, Consumer, Biotech |
 | Macro | 1 | Global macro events, rate cycles, asset allocation |
 
@@ -138,4 +140,4 @@ stock-wiki/
 - **LLM**: Claude (Claude Code CLI)
 - **Storage**: Markdown files, Git version control
 - **Browsing**: Obsidian / any Markdown editor
-- **Data Sources**: CNINFO, HKEX HKDNews, SEC EDGAR, broker research reports
+- **Data Sources**: CNINFO, HKEX HKDNews, SEC EDGAR, broker research reports, Tencent IMA knowledge base
