@@ -1,4 +1,4 @@
-# 美股_Lumentum_LITE投研维基索引
+# 美股_Lumentum_LITE 投研维基索引
 tags: [股票索引, 美股, Lumentum, 光通信, AI数据中心, 快速导航]
 
 ## 股票页面索引

@@ -1,4 +1,4 @@
-# 美股_Coherent_COHR投研维基索引
+# 美股_Coherent_COHR 投研维基索引
 tags: [股票索引, 美股, Coherent, 光通信, AI数据中心, SiC, 快速导航]
 
 ## 股票页面索引
